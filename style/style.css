@@ -238,6 +238,8 @@ html {
   .parent{display: block;} 
 .div1 {width: 100%;}
 .div2{ width: 100%;}
-
-
+}
+@media only screen and (max-width: 900px) and (min-width:769px) {
+.div1 {width: 65%;}
+.div2{ width: 30%;}
 }
