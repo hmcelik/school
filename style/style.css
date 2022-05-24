@@ -230,7 +230,14 @@
 html {
   scroll-behavior: smooth;
 }
-.parent{ display: flex; width: 100%;}
+.parent{ display: flex; width: 100%; }
 .div1 {width: 75%; margin: 2%; padding: 0; }
 .div2 {width: 20%; margin: 0; padding: 0;}
-.div2 img{filter:blur(15px);}
+.div2 img{filter:blur(15px); }
+@media only screen and (max-width: 768px) {
+  .parent{display: block;} 
+.div1 {width: 100%;}
+.div2{ width: 100%;}
+
+
+}
